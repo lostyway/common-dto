@@ -14,6 +14,7 @@ public record OrderKafkaEvent(
     UUID sellerId,
     UUID paymentId,
     UUID shipmentId,
+    UUID idempotencyKey,
     OrderStatus status,
     BigDecimal totalAmount,
     Currency currency,
