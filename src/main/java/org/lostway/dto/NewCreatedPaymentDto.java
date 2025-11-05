@@ -7,5 +7,4 @@ import java.util.UUID;
 public record NewCreatedPaymentDto(
     UUID paymentId,
     PaymentStatus status
-) {
-}
+) {}
